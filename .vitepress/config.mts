@@ -8,22 +8,34 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '关于', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'IT',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'FE', link: '/markdown-examples' },
+          { text: 'Python', link: '/api-examples' },
+          { text: 'AI', link: '/api-examples' }
         ]
-      }
+      },
+      {
+        text: 'Life',
+        items: [
+          { text: 'Books', link: '/markdown-examples' },
+          { text: 'Movies', link: '/api-examples' },
+          { text: 'Musics', link: '/api-examples' }
+        ]
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/leellfly' }
+    ],
+
+    footer:{
+      copyright:'版权所有 © 2024 leellfly'
+    }
   }
 })

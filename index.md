@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Leellfly's Home"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "绘梨衣写字的地方"
+  text: ""
+  tagline: Stay Hungry Stay Foolish
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 技术
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 生活
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Books
+    details: 看过的书
+  - title: Movies
+    details: 看过的电影
+  - title: Musics
+    details: 喜欢的音乐
 ---
 
